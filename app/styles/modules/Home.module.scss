@@ -1,0 +1,18 @@
+@use '_Variables.module.scss' as *;
+@use '_Mixins.module.scss' as *;
+
+.container{
+    .bg{
+        @include borderRed;
+        width: 20rem;
+        height: 30rem;
+        border-radius: 25px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        -ms-border-radius: 25px;
+        -o-border-radius: 25px;
+        background-color: red;
+        @include gridCenter;
+        overflow: hidden;
+    }
+}

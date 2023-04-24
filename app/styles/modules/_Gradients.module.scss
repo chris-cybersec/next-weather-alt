@@ -1,0 +1,8 @@
+@mixin bgGradientMixin{
+    background-size: 100% 100%;
+    background-position: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
+    background-image: radial-gradient(18% 28% at 24% 50%, #ffffff 7%, #073AFF00 100%),radial-gradient(42% 53% at 34% 72%, #FFFFFFFF 7%, #073AFF00 100%),radial-gradient(21% 37% at 72% 23%, #a9def9 24%, #073AFF00 100%),radial-gradient(74% 86% at 67% 38%, #eae2b7 24%, #073AFF00 100%),linear-gradient(125deg, #edf6f9 1%, #dad7cd 100%);
+}
+
+//source
+//https://colorgradient.dev/gradient-generator/

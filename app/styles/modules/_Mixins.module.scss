@@ -1,0 +1,37 @@
+@use "_Variables.module.scss" as *;
+
+// Default Mixins
+@mixin gridCenter {
+    display: grid;
+    place-items: center;
+}
+
+@mixin flexColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin flexRow {
+    display: flex;
+    flex-direction: row;
+}
+
+@mixin borderRed {
+    border: 1px solid red;
+}
+
+@mixin borderBlue {
+    border: 1px solid rgb(27, 27, 246);
+}
+
+@mixin borderYellow {
+    border: 5px solid rgb(235, 246, 27);
+}
+
+@mixin borderMain {
+    border: 5px solid $main-Clr;
+}
+
+@mixin mInline{
+    margin-inline: auto;
+}

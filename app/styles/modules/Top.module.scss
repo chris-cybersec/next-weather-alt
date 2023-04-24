@@ -1,0 +1,6 @@
+@use '_Variables.module.scss' as *;
+@use '_Mixins.module.scss' as *;
+
+.container{
+    @include borderRed;
+}

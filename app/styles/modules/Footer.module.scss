@@ -1,0 +1,9 @@
+@use '_Variables.module.scss' as *;
+@use '_Mixins.module.scss' as *;
+@use '_Gradients.module.scss' as *;
+
+.container{
+    @include gridCenter;
+
+    
+}
