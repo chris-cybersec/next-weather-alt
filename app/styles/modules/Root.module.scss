@@ -10,12 +10,15 @@
         grid-template-rows: 5rem 1fr 5rem;
         @include mInline;
         width: clamp(25rem, 75rem, 100%);
+        @include mainGradientMixin;
+        header{
+            @include gridCenter;
+        }
         main{
             @include gridCenter;
         }
         footer{
             @include gridCenter;
-            @include borderRed;
         }
     }
 }

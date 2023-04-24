@@ -4,15 +4,17 @@ import React, { Suspense } from 'react'
 import styles from "@/app/styles/min/Home.module.css"
 
 //Components
-import Background from './components/background'
+
 import Top from './components/top'
+import Icon from './components/icon'
+import Contents from './components/contents'
 
 const Home = () => {
   return (
     <div className={styles.container}>
-      {/* //background */}
-       <div className={styles.bg}><Suspense fallback={"Loading..."}> <Background /></Suspense></div> 
        <div className={styles.top}><Suspense fallback={"Loading..."}> <Top /></Suspense></div> 
+       <div className={styles.icon}><Suspense fallback={"Loading..."}> <Icon /></Suspense></div> 
+       <div className={styles.content}><Suspense fallback={"Loading..."}><Contents /></Suspense></div> 
       
     </div>
   )

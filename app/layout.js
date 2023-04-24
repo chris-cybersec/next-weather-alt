@@ -1,8 +1,9 @@
 import { Suspense } from 'react'
 import './globals.css'
 
-import { Roboto } from 'next/font/google'
-const roboto = Roboto({ weight: "400", subsets: ["latin"] })
+import { Raleway } from 'next/font/google'
+
+const raleway = Raleway({weight: "200", subsets: ["latin"]})
 
 //styles
 import styles from "@/app/styles/min/Root.module.css"
@@ -17,7 +18,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={roboto.className}>
+    <html lang="en" className={raleway.className}>
       <body className={styles.RootContainer} >
         <div className={styles.container}>
           <header>Header</header>

@@ -1,0 +1,16 @@
+@use '_Variables.module.scss' as *;
+@use '_Mixins.module.scss' as *;
+@use '_Gradients.module.scss' as *;
+
+.container{
+    background-color: $main-Clr;
+    border: 1px solid $font-Clr-alt-4;
+    padding: .5rem 1rem;
+    @include radius5;
+    .sun{
+        font-size: .8rem;
+        span{
+            font-weight: 700;
+        }
+    }
+}

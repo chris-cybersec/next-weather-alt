@@ -2,5 +2,18 @@
 @use '_Mixins.module.scss' as *;
 
 .container{
-    @include borderRed;
+    @include radius5;
+    @include flexColumn;
+    background-color: $main-Clr;
+    border: 1px solid $font-Clr-alt-4;
+    gap: 1rem;
+    text-align: center;
+    padding: 1rem;
+        
+    .temp{
+        font-size: 2rem;
+    }
+    .weather{
+        font-style: italic;
+    }
 }

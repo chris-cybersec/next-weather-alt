@@ -4,6 +4,7 @@
 
 .container{
     @include gridCenter;
-
+    color: $font-Clr;
+    font-weight: 500;
     
 }
